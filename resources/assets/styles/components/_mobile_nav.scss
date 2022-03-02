@@ -1,0 +1,14 @@
+.mobile-menu {
+  .navbar-collapse,
+  .navbar-nav {
+    min-height: 100vh;
+
+    .nav-item {
+      @extend .h2;
+
+      .nav-link {
+        @extend .px-3;
+      }
+    }
+  }
+}
